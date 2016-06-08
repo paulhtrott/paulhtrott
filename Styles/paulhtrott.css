@@ -18,9 +18,9 @@ body {
 }
 
 .row {
-	margin-top: -15.52%;
+	margin-top: -13.52%;
 	margin-bottom: -12.11%;
-	padding-top: 15.52%;
+	padding-top: 13.52%;
 	padding-bottom: 12.11%;
 }
 
@@ -101,7 +101,7 @@ h1 {
 }
 
 .left {
-	margin-top: -15.52%;
+	margin-top: -13.52%;
 	transform: skewY(6.12213deg);
 	background-color: #00194c;
 }
@@ -126,8 +126,7 @@ h1 {
 }
 
 .rotate-row {
-	#max-width: 960px; 
-	margin: 15.52% auto -12.11%; 
+	margin: 13.52% auto -12.11%; 
 	transform: skewY(-6.12213deg);
 }
 
@@ -137,8 +136,9 @@ h1 {
 }
 
 .row-content {
+	max-width: 960px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 15px;
