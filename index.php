@@ -4,7 +4,8 @@
 		<title>Paul H. Trott | Software Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="Resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" type="text/css">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
 		<link rel="stylesheet" href="Styles/paulhtrott.css" type="text/css" media="all">
 	</head>
 	
@@ -24,8 +25,14 @@
 		</div>
 		
 		<div class="container">
-			<div class="row rotate left">
+			<div class="row rotate">
 				<div class="rotate-row">
+					<div class="rotate-row-inner">
+						<div class="left"></div>
+					</div>
+				</div>
+				
+				<div class="row-content">
 					<div class="col-md-8">
 						<h1>About me</h1>
 						<p>I am a happily married, father of 3. I have a passion for computers, gaming, technology and fishing. 
@@ -37,9 +44,37 @@
 						<img class="img-responsive img-border" src="Images/profile-pic.jpg" title="Paul H. Trott" alt="Paul H. Trott" />
 					</div>
 				</div>
+				
 			</div>
+			
 		</div>
 		
+		<div class="container">
+			<div class="row rotate">
+				<div class="rotate-row">
+					<div class="rotate-row-inner">
+						<div class="left" style="background-color: red;"></div>
+					</div>
+				</div>
+				
+				<div class="row-content" >
+					<div class="col-md-8">
+						<h1>About me</h1>
+						<p>I am a happily married, father of 3. I have a passion for computers, gaming, technology and fishing. 
+						I am a Developer at Group Health Cooperative of Eau Claire in Altoona, Wisconsin. I work predominantly in C# and MVC, 
+						but also do Java and anything else that gets the job done.</p>
+						<a class="btn btn-default button" href="http://stackoverflow.com/cv/paulhtrott" target="_blank">Learn More</a>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive img-border" src="Images/profile-pic.jpg" title="Paul H. Trott" alt="Paul H. Trott" />
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!--
 		<div class="container">
 			<div class="row rotate right">
 				<div class="rotate-row">
@@ -120,7 +155,7 @@
 				</div>
 			</div>
 		</div>
-		
+		-->
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="Scripts/paulhtrott.js"></script> 
