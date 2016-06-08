@@ -24,6 +24,13 @@ body {
 	padding-bottom: 12.11%;
 }
 
+.straight-row {
+	max-width: 970px;
+    margin: 10% auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 h3 {
 	margin-bottom: 0;
 }
