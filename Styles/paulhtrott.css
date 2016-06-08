@@ -33,6 +33,10 @@ small {
 	padding-top: 0;
 }
 
+#main {
+	overflow: hidden;
+}
+
 #hero {
 	background: #fff url('../Images/pt-hero.jpg') no-repeat top center fixed;
     background-size: cover;
