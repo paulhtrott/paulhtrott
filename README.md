@@ -1,3 +1,3 @@
-# README #
+# Resume #
 
-Resume site for myself. Simple single page html/css site.
+Resume for Paul H Trott (Software Developer)
