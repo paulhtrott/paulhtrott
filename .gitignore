@@ -1,3 +1,6 @@
 Resources/bootstrap-3.3.6-dist/*
 .htaccess
 *.DS_STORE
+node_modules
+public/bundle.*
+*.swp
