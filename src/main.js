@@ -4,7 +4,8 @@ import App from './App.svelte';
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'Paul H Trott'
+		name: 'Paul H Trott',
+    API_URL: 'https://paulhtrott.dev/wp-json/wp/v2'
 	}
 });
 
