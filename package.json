@@ -33,7 +33,5 @@
     "serve:dev": "sirv public --dev",
     "dev": "run-p build:auto serve:dev"
   },
-  "dependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "dependencies": {}
 }
