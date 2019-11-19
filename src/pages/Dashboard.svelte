@@ -1,5 +1,57 @@
 <script>
+  import { onMount } from 'svelte'
   import Title from './../components/Title.svelte'
+
+  onMount(async () => {
+    new Chart(document.getElementById("years"), {
+        "type": "bar",
+        "data": {
+            "labels": ["CVTC", "JAMF", "GHC", "TheBlaze", "Pressable"],
+            "datasets": [{
+                "label": "Years of Experience",
+                "data": [0.5, 1.7, 2, 2, 1],
+                "borderColor": "rgb(170, 83, 95)",
+                "backgroundColor": "rgba(170, 83, 95, 0.5)"
+            }]
+        },
+        "options": {
+            "scales": {
+                "yAxes": [{
+                    "ticks": {
+                        "beginAtZero": true
+                    }
+                }]
+            }
+        }
+    });
+
+    new Chart(document.getElementById("programming_languages"), {
+        "type": "doughnut",
+        "data": {
+            "labels": ["Bash", "SQL", "Objective C", "Python", "C#", "Java", "Ruby", "GoLang", "Javascript"],
+            "datasets": [{
+                "label": "Knowledge %",
+                "data": [1, 3, 1, 3, 10, 10, 50, 2, 20],
+                "backgroundColor": ["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(255, 205, 86)", "rgb(138,170,83)", "rgb(170,83,138)", "rgb(170,83,95)", "rgb(170,159,83)", "rgb(83,95,170)", "rgb(170,115,83)"]
+            }]
+        }
+    });
+
+    new Chart(document.getElementById("consulting_time"), {
+        "type": "line",
+        "data": {
+            "labels": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+            "datasets": [{
+                "label": "Hours Spent",
+                "data": [1954, 1970, 2012, 1820, 1702, 120, 0, 0, 250, 300, 276],
+                "fill": false,
+                "borderColor": "rgb(75, 192, 192)",
+                "lineTension": 0.1
+            }]
+        },
+        "options": {}
+    });
+  });
 </script>
 
 <Title title="Dashboard" />
@@ -14,29 +66,6 @@
             </div>
             <div class="p-5">
                 <canvas id="years" class="chartjs" width="undefined" height="undefined"></canvas>
-                <script>
-                    new Chart(document.getElementById("years"), {
-                        "type": "bar",
-                        "data": {
-                            "labels": ["CVTC", "JAMF", "GHC", "TheBlaze", "Pressable"],
-                            "datasets": [{
-                                "label": "Years of Experience",
-                                "data": [0.5, 1.7, 2, 2, 1],
-                                "borderColor": "rgb(170, 83, 95)",
-                                "backgroundColor": "rgba(170, 83, 95, 0.5)"
-                            }]
-                        },
-                        "options": {
-                            "scales": {
-                                "yAxes": [{
-                                    "ticks": {
-                                        "beginAtZero": true
-                                    }
-                                }]
-                            }
-                        }
-                    });
-                </script>
             </div>
         </div>
         <!--/Graph Card-->
@@ -50,19 +79,6 @@
             </div>
             <div class="p-5">
                 <canvas id="programming_languages" class="chartjs" width="undefined" height="undefined"></canvas>
-                <script>
-                    new Chart(document.getElementById("programming_languages"), {
-                        "type": "doughnut",
-                        "data": {
-                            "labels": ["Bash", "SQL", "Objective C", "Python", "C#", "Java", "Ruby", "GoLang", "Javascript"],
-                            "datasets": [{
-                                "label": "Knowledge %",
-                                "data": [1, 3, 1, 3, 10, 10, 50, 2, 20],
-                                "backgroundColor": ["rgb(255, 99, 132)", "rgb(54, 162, 235)", "rgb(255, 205, 86)", "rgb(138,170,83)", "rgb(170,83,138)", "rgb(170,83,95)", "rgb(170,159,83)", "rgb(83,95,170)", "rgb(170,115,83)"]
-                            }]
-                        }
-                    });
-                </script>
             </div>
         </div>
         <!--/Graph Card-->
@@ -76,22 +92,6 @@
             </div>
             <div class="p-5">
                 <canvas id="consulting_time" class="chartjs" width="undefined" height="undefined"></canvas>
-                <script>
-                    new Chart(document.getElementById("consulting_time"), {
-                        "type": "line",
-                        "data": {
-                            "labels": ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
-                            "datasets": [{
-                                "label": "Hours Spent",
-                                "data": [1954, 1970, 2012, 1820, 1702, 120, 0, 0, 250, 300, 276],
-                                "fill": false,
-                                "borderColor": "rgb(75, 192, 192)",
-                                "lineTension": 0.1
-                            }]
-                        },
-                        "options": {}
-                    });
-                </script>
             </div>
         </div>
         <!--/Graph Card-->

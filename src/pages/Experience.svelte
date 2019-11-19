@@ -1,7 +1,6 @@
 <script>
-  import Title from './../components/Title.svelte'
-
   import { onMount } from 'svelte'
+  import Title from './../components/Title.svelte'
 
   let experience = []
 
