@@ -15,8 +15,8 @@
       <img class="w-full" src="{image}" alt="{imageAlt}">
     { /if }
     <div class="px-6 py-4">
-      <div class="text-sm mb-2">{title}</div>
-      <div class="font-bold text-xl mb-2">{companyName}</div>
+      <div class="text-sm">{title}</div>
+      <div class="font-bold text-xl mb-1">{companyName}</div>
       <div class="text-xs mb-2">{years}</div>
       <p class="text-gray-700 text-base">
         {description}

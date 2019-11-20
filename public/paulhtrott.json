@@ -2,11 +2,19 @@
   "education":[
     {
       "name": "Chippewa Valley Technical College",
-      "logo": "/images/cvtc-logo.png"
+      "image": "/images/cvtc-logo.png",
+      "years": "2012 - 2013",
+      "degree": "Associate of Applied Science, Information Technology - Software Developer",
+      "url": "https://www.cvtc.edu/",
+      "address": "Eau Claire, Wisconsin"
     },
     {
       "name": "Goldey-Beacom College",
-      "logo": "/images/gbc-logo.png"
+      "image": "/images/gbc-logo.png",
+      "years": "1997 - 2001",
+      "degree": "Bachelor of Science - BS, Accounting",
+      "url": "https://www.gbc.edu/",
+      "address": "Wilmington, Delaware"
     }
   ],
   "experience": [
