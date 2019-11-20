@@ -1,10 +1,12 @@
 {
   "education":[
     {
-      "name": "Goldey-Beacom College"
+      "name": "Chippewa Valley Technical College",
+      "logo": "/images/cvtc-logo.png"
     },
     {
-      "name": "Chippewa Valley Technical College"
+      "name": "Goldey-Beacom College",
+      "logo": "/images/gbc-logo.png"
     }
   ],
   "experience": [
@@ -13,42 +15,60 @@
       "title": "Software Engineer",
       "description": "100% Remote Software Engineer. Technologies currently working with include Ruby on Rails, GoLang, MariaDB and Git.",
       "years": "2018 - Present",
-      "logo": "https://pressable.com/wp-content/themes/pressable-com/images/dist/managed-wordpress-hosting.svg"
+      "logo": "https://pressable.com/wp-content/themes/pressable-com/images/dist/managed-wordpress-hosting.svg",
+      "skills": [
+        "Rails", "GoLang", "MariaDB", "Git", "Gitlab"
+      ]
     },
     {
       "name": "Ninja Web Studios LLC",
       "title": "Software Engineer [Contractor]",
-      "description": "Consulting, along with development in React, Rails and DotNet.",
+      "description": "Consulting, along with development in Javascript, Rails and DotNet.",
       "years": "2017 - Present",
-      "logo": ""
+      "logo": "",
+      "skills": [
+        "Rails", "ReactJs", "SvelteJs", "Git", "Github", "Bitbucket", "Heroku", "Azure", "APIs"
+      ]
     },
     {
       "name": "TheBlaze [BlazeTV]",
       "title": "Product Developer",
       "description": "Remote Ruby On Rails developer using Ruby, Erb, SCSS, ES6, jQuery, Git, Bitbucket, and Jira. Communication through Slack and Google Hangouts.",
       "years": "2016 - 2018",
-      "logo": "/images/theblaze-logo.png"
+      "logo": "/images/theblaze-logo.png",
+      "skills": [
+        "Rails", "jQuery", "APIs", "MariaDB", "Git", "Atlassian"
+      ]
     },
     {
       "name": "Group Health Cooperative of Eau Claire",
       "title": "Developer",
       "description": "Full stack MVC development using C#, HTML, CSS/SCSS, and Javascript/jQuery. Web graphic design using Photoshop. Use TFS (Team Foundation Server) and Git. Front-end libraries used include Bootstrap and Foundation. Integrations with third-party APIs.",
       "years": "2014 - 2016",
-      "logo": "/images/ghc-logo.png"
+      "logo": "/images/ghc-logo.png",
+      "skills": [
+        "C Sharp", "jQuery", "Git", "TFS", "Visual Studio"
+      ]
     },
     {
       "name": "JAMF",
       "title": "Cross Platform Engineer",
       "description": "I worked on JAMF Software's Objective-C OS X products which included Casper Recon, the JAMF Binary, and Composer. I also worked in C#, .Net-2.0 framework, where I rewrote the JAMF.exe command line utility, implemented certificate based communication and added unit testing on the project, allowing the Windows customers to have a secure environment. I worked in python (v2.7) on the JAMF Distribution Server (JDS), adding the Unit Testing Framework (pytest) and implementing with Jenkins CI. I was also a part of the sustaining engineering team, where I worked on defects in all platforms, including Java, HTML, CSS, Javascript, Bash, Ruby, Python and RealBasic.",
       "years": "2013 - 2014",
-      "logo": "/images/jamf-logo.png"
+      "logo": "/images/jamf-logo.png",
+      "skills": [
+        "Objective-C", "C Sharp", "Python", "Ruby", "Java", "SVN", "Git", "Bitbucket"
+      ]
     },
     {
       "name": "JAMF",
       "title": "Software Engineering Intern",
       "description": "Migrated internal OS X frameworks to a stable in house CocoaPod infrastructure. Created bug fixes for JAMF Binary and JAMF Admin OS X applications as part of the Casper Suite 9.0 release. Assisted in developing and furthering JAMF client side automated testing.",
       "years": "2013",
-      "logo": "/images/jamf-logo.png"
+      "logo": "/images/jamf-logo.png",
+      "skills": [
+        "Objective-C", "CocoaPods"
+      ]
     }
   ]
 }
