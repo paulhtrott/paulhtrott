@@ -9,6 +9,12 @@
     screenToLoad.set(whichButtonClicked);
 
     whichPageLoaded = whichButtonClicked;
+
+    // Scroll to top after navigation.
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 </script>
 
