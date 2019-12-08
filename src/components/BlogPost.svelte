@@ -35,10 +35,38 @@
 </script>
 
 <style>
-  #content :global(h2),
-  #content :global(h3),
+  #content :global(h1) {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  #content :global(h2) {
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  #content :global(h3) {
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
   #content :global(h4) {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  #content :global(h5) {
     font-size: 1.2em;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  #content :global(h6) {
+    font-size: 1em;
     font-style: italic;
     font-weight: bolder;
   }

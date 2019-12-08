@@ -3,4 +3,5 @@ Resources/bootstrap-3.3.6-dist/*
 *.DS_STORE
 node_modules
 public/bundle.*
+public/components.*
 *.swp

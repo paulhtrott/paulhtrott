@@ -26,7 +26,6 @@
     fetch(apiUrl + '/posts/' + id)
     .then(response => response.json())
     .then(data => {
-      console.log('blog data', data);
       blogPost = data;
       whichPostToLoad = id;
 
