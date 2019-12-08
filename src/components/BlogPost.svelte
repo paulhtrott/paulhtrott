@@ -35,7 +35,9 @@
 </script>
 
 <style>
-  #content :global(h3) {
+  #content :global(h2),
+  #content :global(h3),
+  #content :global(h4) {
     font-size: 1.2em;
     font-style: italic;
     font-weight: bolder;
