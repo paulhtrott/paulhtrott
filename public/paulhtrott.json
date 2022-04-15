@@ -20,18 +20,38 @@
   "experience": [
     {
       "name": "Pressable.com",
+      "title": "Head of Engineering",
+      "description": "100% Remote Software Engineer. Technologies currently working with include Ruby on Rails, GoLang, MariaDB and Git.",
+      "years": "2022 - Present",
+      "logo": "https://my.pressable.com/vnext/img/pressable-logo-primary.svg",
+      "skills": [
+        "Rails", "GoLang", "MariaDB", "Git", "Gitlab"
+      ]
+    },
+    {
+      "name": "Pressable.com",
+      "title": "Lead Software Engineer",
+      "description": "100% Remote Software Engineer. Technologies currently working with include Ruby on Rails, GoLang, MariaDB and Git.",
+      "years": "2021 - Present",
+      "logo": "https://my.pressable.com/vnext/img/pressable-logo-primary.svg",
+      "skills": [
+        "Rails", "GoLang", "MariaDB", "Git", "Gitlab"
+      ]
+    },
+    {
+      "name": "Pressable.com",
       "title": "Software Engineer",
       "description": "100% Remote Software Engineer. Technologies currently working with include Ruby on Rails, GoLang, MariaDB and Git.",
-      "years": "2018 - Present",
-      "logo": "https://pressable.com/wp-content/themes/pressable-com/images/dist/managed-wordpress-hosting.svg",
+      "years": "2018 - 2021",
+      "logo": "https://my.pressable.com/vnext/img/pressable-logo-primary.svg",
       "skills": [
         "Rails", "GoLang", "MariaDB", "Git", "Gitlab"
       ]
     },
     {
       "name": "Ninja Web Studios LLC",
-      "title": "Software Engineer [Contractor]",
-      "description": "Consulting, along with development in Javascript, Rails and DotNet.",
+      "title": "Contractor",
+      "description": "Remote Consulting, along with development in Javascript, Rails and DotNet.",
       "years": "2017 - Present",
       "logo": "",
       "skills": [

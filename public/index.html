@@ -7,19 +7,389 @@
 
     <title>Paul H. Trott | Software Engineer</title>
 
-    <link rel='icon' type='image/png' href='/favicon.png'>
+    <link rel='icon' type='image/png' href='./favicon.ico'>
+
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2cea665d36.js" crossorigin="anonymous"></script>
-
-    <!-- ChartJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js" crossorigin="anonymous"></script>
-
-    <link rel='stylesheet' href='./bundle.css'>
-    <link rel='stylesheet' href='./components.css'>
-
-    <script defer src='./bundle.js'></script>
   </head>
-  <body class="bg-gray-900 font-sans leading-normal tracking-normal mt-12">
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-info is-fixed-top">
+      <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="mainNavbar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="mainNavbar" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#top">
+            <span class="icon">
+              <i class="fas fa-house"></i>
+            </span>
+            <span class="ml-1">Home</span>
+          </a>
+          <a class="navbar-item" href="#about">
+            <span class="icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </span>
+            <span class="ml-1">About</span>
+          </a>
+          <a class="navbar-item" href="#experience">
+            <span class="icon">
+              <i class="fas fa-rocket"></i>
+            </span>
+            <span class="ml-2">Experience</span>
+          </a>
+          <a class="navbar-item" href="#resume">
+            <span class="icon">
+              <i class="fas fa-circle-nodes"></i>
+            </span>
+            <span class="ml-2">Resume</span>
+          </a>
+          <a class="navbar-item" href="#portfolio">
+            <span class="icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </span>
+            <span class="ml-2">Portfolio</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section id="top" class="hero is-info is-fullheight is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container">100% Remote
+          <h1 class="title is-1">
+            Paul H Trott
+          </h1>
+          <h2 class="subtitle is-3">
+            Head of Engineering | Lead Software Engineer
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <!-- Title -->
+      <div class="section-heading mb-5">
+        <h3 class="title is-2">About</h3>
+        <h4 class="subtitle is-5">Head of Engineering and Lead Software Engineer at <a href="https://pressable.com" target="_blank">Pressable.com</a></h4>
+        <div class="container">
+          <p>I am Head of Engineering and Lead Software Engineer Pressable, I am also a part-time software engineer contractor working on projects for non-profit and for-profit businesses. The applications I build and maintain are usually using <strong>Ruby on Rails</strong>, with the occasional <strong>JavaScript</strong> library for the front-end (when it makes sense). I do lots of third-party integrations, wrangling data from third-party APIs, as well as building Restful APIs for third party consumption. On weekends, I can usually be found enjoying the outdoors. I love fishing and share some of my fishing experiences on YouTube, I also love hiking and kayaking.</p>
+        </div>
+      </div>
+
+      <div class="columns has-same-height is-gapless">
+        <div class="column">
+          <!-- Profile -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="title is-4">Profile</h3>
+
+              <div class="content">
+                <table class="table-profile">
+                  <tr>
+                    <th colspan="1"></th>
+                    <th colspan="2"></th>
+                  </tr>
+                  <tr>
+                    <td>Address:</td>
+                    <td>Exeland, Wisconsin, USA</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>paulhtrott@gmail.com</td>
+                  </tr>
+                </table>
+              </div>
+              <br>
+              <div class="buttons has-addons is-centered">
+                <a href="https://github.com/paulhtrott" class="button is-link" target="_blank">
+                  <i class="fa-brands fa-github mr-2"></i>
+                  Github
+                </a>
+                <a href="https://www.linkedin.com/in/paulhtrott/" class="button is-link" target="_blank">
+                  <i class="fa-brands fa-linkedin mr-2"></i>
+                  LinkedIn
+                </a>
+                <a href="https://twitter.com/paulhtrott" class="button is-link" target="_blank">
+                  <i class="fa-brands fa-twitter mr-2"></i>
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <!-- Profile picture -->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="./images/paul_h_trott.jpg" alt="Paul H Trott - Fishing">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <!-- Skills -->
+          <div class="card">
+            <div class="card-content skills-content">
+              <h3 class="title is-4">Skills</h3>
+              <div class="content">
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Ruby on Rails</strong>
+                        <br>
+                        <progress class="progress is-primary" value="90" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>JavaScript</strong>
+                        <br>
+                        <progress class="progress is-primary" value="62" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>SQL</strong>
+                        <br>
+                        <progress class="progress is-primary" value="35" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>HTML5/CSS3</strong>
+                        <br>
+                        <progress class="progress is-primary" value="95" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Bash</strong>
+                        <br>
+                        <progress class="progress is-primary" value="25" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>APIs</strong>
+                        <br>
+                        <progress class="progress is-primary" value="84" max="100"></progress>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-heading mb-5">
+        <h3 class="title is-2">Experience</h3>
+        <h4 class="subtitle is-5"> Manage and Lead Teams, Build and Maintain Software</h4>
+      </div>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Leadership</h4>
+                Manage and enable engineering teams. Build plans for hiring future team members. Plan the implementation and improvements of existing, and future, infrastructure.
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Back End Development</h4>
+                Web and Desktop applications using Objective-C, C#, Java and Ruby, as well as prototypes in Node.js and Go Lang.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Front End Web Development</h4>
+                HTML5, CSS, SCSS/SASS and Vanilla JavaScript, including JavaScript libraries including jQuery, React, Vue.js, Angular and Svelte. CSS Frameworks including Bootstrap, Bulma and Semantic.
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Other Technologies</h4>
+                WordPress, Docker, Redis, APIs, Git and Git repositories including Gitlab, BitBucket, and GitHub.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume">
+      <div class="section-heading">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">Get more details on my work history on LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/paulhtrott/" class="button is-link is-medium" target="_blank">
+          <span class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </span>
+          <span>View Work History</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Portfolio</h3>
+          <h4 class="subtitle is-5">Some of my latest work</h4>
+        </div>
+
+        <br>
+
+        <div class="container portfolio-container">
+          <div class="columns">
+            <div class="column">
+              <!-- Playground -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>MyPressable Playground</span>
+                    <span class="is-pulled-right">
+                      <span class="tag is-default">Ruby on Rails</span>
+                      <span class="tag is-info">Heroku</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img src="./images/pressable_playground.jpg" alt="Pressable Playground screenshot">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="https://try.pressable.com" target="_blank" class="card-footer-item">Preview</a>
+                </footer>
+              </div>
+            </div>
+            <!-- GCN -->
+            <div class="column">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Gateway Church Network</span>
+                    <span class="is-pulled-right">
+                      <span class="tag is-default">Ruby on Rails</span>
+                      <span class="tag is-info">Heroku</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img src="./images/gateway_church_network.jpg" alt="Gateway Church Network screenshot">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="https://app.gatewaychurchnetwork.com" class="card-footer-item" target="_blank">Preview</a>
+                </footer>
+              </div>
+            </div>
+            <!-- GCN -->
+            <div class="column">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Gateway Global Ministries</span>
+                    <span class="is-pulled-right">
+                      <span class="tag is-default">Ruby on Rails</span>
+                      <span class="tag is-info">Heroku</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img src="./images/gateway_global_ministries.jpg" alt="Gateway Global Ministries screenshot">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">Coming Soon</p>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section-heading">
+        <p>
+          <strong>Paul H. Trott</strong> by <a href="https://ninjawebstudios.com" target="_blank">Ninja Web Studios LLC</a>
+        </p>
+        <small>Copyright &copy; 2022</small>
+      </div>
+    </footer>
+
+    <script>
+      // Handle menu
+      (function() {
+        const burger = document.querySelector('.burger');
+
+        const menu = document.querySelector(`#${burger.dataset.target}`);
+
+        burger.addEventListener('click', function() {
+          burger.classList.toggle('is-active');
+
+          menu.classList.toggle('is-active');
+        });
+      })();
+    </script>
   </body>
 </html>
